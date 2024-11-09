@@ -1,10 +1,16 @@
+import "./footer.css"
+
+
 function foot(){
 
     const dat = new Date().getFullYear()
 
     return <div>
         <footer>
-            Copyright {dat}
+            <p>
+                Copyright {dat}
+            </p>
+            
         </footer>
     </div>
 }
